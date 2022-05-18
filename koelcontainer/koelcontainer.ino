@@ -11,21 +11,17 @@ Ticker ticker;
 String pass;
 String ssid;
 
-// Provide the token generation process info.
+
 #include <addons/TokenHelper.h>
 
-/* 1. Define the WiFi credentials */
-//#define WIFI_SSID "Nokia"
-//#define WIFI_PASSWORD "12345678"
-
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyDuAyQPEbuPVKP32chON0OWDiIlmhE1vgc"
+#define API_KEY "Api_key"
 
 /* 3. Define the project ID */
 #define FIREBASE_PROJECT_ID "arduinonodemcu-fe6ea"
 
 /* 4. Define the user Email and password that alreadey registerd or added in your project */
-#define USER_EMAIL "emine@merhaba.com"
+#define USER_EMAIL user_email"
 #define USER_PASSWORD "password"
 
 
